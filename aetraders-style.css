@@ -17,9 +17,8 @@
 }
 .row.product_row .large-4.columns:last-child {margin-right: 0}
 .row.product_row .large-4.columns:hover {
-    background: #fafafa;
+    background: #F9F9F9;
     cursor: pointer;
-    border: 1px solid #F3F0F0;
 }
 .home-slider img{
     padding: 8px;

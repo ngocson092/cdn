@@ -1,1 +1,6 @@
-.sib{}
+.row.product_row .large-4.columns{
+
+
+}
+
+.row.product_row .large-4.columns h4{line-height: 30px !important;font-family: sans-serif !important;font-weight: 300 !important;min-height: 100px;margin-top: 30px;border-top: 1px solid #ddd;}

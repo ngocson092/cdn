@@ -107,7 +107,6 @@ html[xmlns] .flexslider .slides {
 .flexslider {
   margin: 0 0 60px;
   background: #fff;
-  border: 4px solid #fff;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -307,5 +306,5 @@ html[xmlns] .flexslider .slides {
 }
 
 #main-slider{
-    magrin-bottom: 4px;
+    magrin-bottom: 10px;
 }

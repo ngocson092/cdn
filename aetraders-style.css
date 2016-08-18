@@ -1,3 +1,6 @@
+body{
+    background-color: #000 !important;
+}
 .row.product_row .large-4.columns .wrap-pic{display: block;height: 230px;overflow: hidden;/* margin-top: 40px; */}
 .row.product_row .large-4.columns .wrap-pic img{
     min-height: 100%;

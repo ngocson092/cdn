@@ -306,3 +306,6 @@ html[xmlns] .flexslider .slides {
   }
 }
 
+#main-slider{
+    magrin-bottom: 4px;
+}

@@ -71,6 +71,11 @@
   margin: 0;
   padding: 0;
 }
+
+.flexslider ul{
+    list-style: none;
+}
+
 .flexslider .slides > li {
   display: none;
   -webkit-backface-visibility: hidden;

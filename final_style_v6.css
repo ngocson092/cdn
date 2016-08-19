@@ -322,6 +322,12 @@ html[xmlns] .flexslider .slides {
     box-shadow: 0px 0px 5px #777;
 }
 
+#product-slide-1 .flex-viewport,
+#product-slide-2 .flex-viewport{
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
 #product-slide-1 .flex-viewport li p,
 #product-slide-2 .flex-viewport li p
 {

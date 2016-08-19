@@ -1,3 +1,4 @@
+@import('http://fontawesome.io/assets/font-awesome/css/font-awesome.css');
 .row.product_row .large-4.columns .wrap-pic{display: block;height: 230px;overflow: hidden;/* margin-top: 40px; */}
 .row.product_row .large-4.columns .wrap-pic img{
     min-height: 100%;
@@ -165,18 +166,15 @@ html[xmlns] .flexslider .slides {
   font-family: "flexslider-icon";
   font-size: 40px;
   display: inline-block;
-  content: '<';
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
-.flex-direction-nav a.flex-next:before {
-  content: '>';
-}
+
 .flex-direction-nav .flex-prev {
-  left: -50px;
+  left: 0px;
 }
 .flex-direction-nav .flex-next {
-  right: -50px;
+  right: 0px;
   text-align: right;
 }
 .flexslider:hover .flex-direction-nav .flex-prev {
@@ -351,4 +349,31 @@ html[xmlns] .flexslider .slides {
 #product-slide-1.flexslider .slides li:hover p,
 #product-slide-2.flexslider .slides li:hover p{
     color: #9e0c0f;
+}
+
+h2.content-title{
+    font-size: 30px;
+    position: relative;
+    padding: 30px 0px;
+    color: #333;
+}
+
+h2.content-title:after{
+    content: '';
+    border-bottom: 3px solid #9e0c0f;
+    height: 0px;
+    width: 50px;
+    left: 0px;
+    right: 0px;
+    bottom: -20px;
+    margin: auto;
+}
+
+#main-slider .flex-direction-nav a{
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #777;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
 }

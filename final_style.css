@@ -317,4 +317,38 @@ html[xmlns] .flexslider .slides {
 #product-slide-2.flexslider .slides li
 {
     margin-right: 20px;
+    border: 1px solid #b3b7b7;
+    transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+#product-slide-1.flexslider .slides li:hover,
+#product-slide-2.flexslider .slides li:hover{
+    box-shadow: 0px 0px 5px #777;
+}
+
+
+#product-slide-1 .flex-viewport,
+#product-slide-2 .flex-viewport{
+    padding-left: 10px;padding-right: 10px;
+}
+
+#product-slide-1 .flex-viewport li p,
+#product-slide-2 .flex-viewport li p
+{
+    text-align: center;
+    color: #000;
+    height: 27px;
+    font-size: 12px;
+        -o-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+
+
+#product-slide-1.flexslider .slides li:hover p,
+#product-slide-2.flexslider .slides li:hover p{
+    color: #9e0c0f;
 }

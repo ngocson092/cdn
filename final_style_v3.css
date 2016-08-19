@@ -371,4 +371,5 @@ h2.content-title:after{
     font-size: 18px;
     text-align: center;
     width: 30px;
+    opacity: 0.7;
 }

@@ -393,6 +393,7 @@ h2.content-title:after{
  * Custom css 24/08
  * ====================================================================================================================*/
  .max-height-img{max-height: 235px;}
+ .home-category-boxes {width: 245px;}
  .home-category-boxes .header{line-height: 15px}
  .home-category-boxes .header a{text-decoration: none;font-size: 18px;text-transform: uppercase;}
 .home-category-boxes .textBody{font-size: 12px; margin-top: 3px; height: 28px}

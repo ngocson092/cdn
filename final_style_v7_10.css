@@ -309,7 +309,7 @@ html[xmlns] .flexslider .slides {
 #product-slide-1.flexslider .slides li,
 #product-slide-2.flexslider .slides li
 {
-    margin-right: 20px;
+    margin-right: 15px !important;
     border: 1px solid #b3b7b7;
     transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -440,4 +440,28 @@ h2.content-title:after{
     display: block;
     margin-left: -20px;
     margin-right: -5px;
+}
+h3 .signup{
+    color: #fff;
+    border: 10px double #fff;
+    padding: 20px;
+    font-size: 37px;
+    font-weight: bold;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    height: 53%;
+    width: 80%;
+    text-align: center;
+}
+h3 .signup a{color: #fff}
+h3 .signup a:hover{color: #fff}
+.bgsignup{
+  background-image: url('http://i.imgur.com/NYE279J.jpg');
+    max-width: 512px;
+    height: 280px;
+    position: relative;
 }

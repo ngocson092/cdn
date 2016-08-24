@@ -84,7 +84,6 @@
 .flexslider .slides img {
   width: 100%;
   display: block;
-  max-height: 235px; /*ud 24-08*/
 }
 .flexslider .slides:after {
   content: "\0020";

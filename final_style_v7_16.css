@@ -465,3 +465,16 @@ h2.content-title:after{
     height: 280px;
     position: relative;
 }
+.wrap-box-images{
+ height: 235px;position:relative;
+ overflow: hidden;
+}
+.wrap-box-images img{
+width: 100%;
+height: auto;
+top: 0px;
+left: 0px;
+bottom: 0px;
+right: 0px;
+position: absolute;
+margin: auto;}

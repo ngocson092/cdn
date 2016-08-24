@@ -84,6 +84,7 @@
 .flexslider .slides img {
   width: 100%;
   display: block;
+  max-height: 235px; /*ud 24-08*/
 }
 .flexslider .slides:after {
   content: "\0020";
@@ -333,7 +334,7 @@ html[xmlns] .flexslider .slides {
 {
     text-align: center;
     color: #000;
-    height: 27px;
+    height: 35px;/*Gốc 27px*/
     font-size: 12px;
         -o-transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -355,6 +356,13 @@ h2.content-title{
     color: #333;
     text-align: center;
 }
+h2.content-title a{
+	color: #323232;
+}
+h2.content-title a:hover{
+	color: #9e0c0f;
+}
+
 
 h2.content-title:after{
     content: '';
@@ -381,3 +389,7 @@ h2.content-title:after{
     width: 30px;
     opacity: 0.7;
 }
+/* ====================================================================================================================
+ * Custom css 24/08
+ * ====================================================================================================================*/
+.max-height-img{max-height: 235px;}

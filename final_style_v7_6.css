@@ -398,7 +398,7 @@ h2.content-title:after{
 .home-category-boxes .textBody{font-size: 12px; margin-top: 3px; height: 70px;}
 .home-category-boxes .textBody a{color: #333}
 .home-category-boxes .textBody a:hover{color: #258faf; transition: .3s}
-.home-category-boxes .textBody1{font-size: 12px; margin-top: 3px; height: 32px; text-align: center; vertical-align: middle;display: table-cell;}
+.home-category-boxes .textBody1{font-size: 12px; margin-top: 3px; height: 36px; text-align: center; vertical-align: middle;display: table-cell;}
 .home-category-boxes .textBody1 a{color: #333}
 .home-category-boxes .textBody1 a:hover{color: #258faf; transition: .3s}
 .home-category-boxes .textBody a.links:visited{text-decoration: underline}

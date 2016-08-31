@@ -478,3 +478,7 @@ bottom: 0px;
 right: 0px;
 position: absolute;
 margin: auto;}
+
+.text-uppercase{
+	text-transform: uppercase;
+}
